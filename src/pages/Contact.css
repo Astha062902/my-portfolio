@@ -1,0 +1,213 @@
+/*.contact-section {
+  background-color: #3E2818;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #DACCB4;
+}
+
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.tagline {
+  max-width: 300px;
+  font-size: 35px;
+  margin-right: 300px;
+}
+
+.contact-form {
+  max-width: 1200px; 
+  width: 100%; 
+   
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 100%;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #DACCB4;
+}
+
+input, textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #DACCB4;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 15px; 
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #4285f4;
+}
+
+
+.button-container {
+  margin-top: 20px; 
+  text-align: center;
+  align-items: center;
+}
+
+.button-container button {
+  background-color: #906E49; 
+  color: #fff; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  width: 50%; 
+  box-sizing: border-box; 
+}
+
+h1{
+  color: #DACCB4;
+}
+
+
+
+p.validation-error {
+  color: #ff0000;
+  margin-top: 5px;
+  font-size: 0.8rem;
+}*/
+
+/* Contact.css */
+
+/* Contact.css */
+
+/* Reset some default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main section styling */
+#contact {
+  background-color: #3E2818;
+  color: #DACCB4;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for the entire contact section */
+.container.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align heading to the left */
+}
+
+/* Heading style */
+h1 {
+  color: #DACCB4;
+  margin-bottom: 20px;
+  margin-right: auto; /* Push heading to the extreme left */
+}
+
+/* Contact form container styling */
+.contact-form-container {
+  display: flex;
+  justify-content: space-between; /* Separate into two halves */
+  max-width: 1000px; /* Adjust as needed */
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Tagline styling */
+.tagline {
+  max-width: 400px;
+  font-size: 38px; /* Adjust as needed */
+  text-align: center; /* Center the tagline horizontally */
+  margin-top: 40px;
+}
+
+/* Form container styling */
+.contact-form {
+  max-width: 300px; /* Adjust as needed */
+  width: 100%;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+  margin-left: 300px;
+}
+
+/* Label styling */
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Input and textarea styling */
+input,
+textarea {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #DACCB4;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4285f4;
+}
+
+/* Button container styling */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Submit button styling */
+.button-container button {
+  background-color: #906E49;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  width: 50%;
+  box-sizing: border-box;
+  margin-left: 300px;
+}
+
+/* Validation error styling */
+p.validation-error {
+  color: #ff0000;
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .contact-form-container {
+    flex-direction: column; /* Stack elements on smaller screens */
+  }
+
+  /* Adjust other styles as needed for smaller screens */
+}
+
+
+
+
+

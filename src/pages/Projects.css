@@ -1,0 +1,53 @@
+
+
+  .projects-section {
+    background-color: #3E2818;
+    padding:40px;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #DACCB4;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    width: 22%; /* Decreased width to fit four projects in one line */
+    height: 350px; /* Increased height for better display */
+    background-color: #DACBB4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden; /* Ensure the image doesn't overflow */
+    transition: transform 0.2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    img {
+      width: 100%; /* Make the image fill the container */
+      height: 150px; /* Adjust the image height */
+      object-fit: cover; /* Maintain aspect ratio */
+    }
+  
+    .project-details {
+      padding: 15px;
+    }
+  
+    h3 {
+      color: #774E2A;
+    }
+    h2{
+      color:#DACBB4;
+    }
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #906E49;
+    }
+  }
+  
+  

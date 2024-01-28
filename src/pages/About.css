@@ -1,0 +1,43 @@
+
+.about-section {
+  background-color: #3E2818;
+    padding: 40px;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #DACCB4;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.profile-picture img {
+  max-width: 200px;
+  max-height: 200px; /* Set a max height to maintain aspect ratio */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  border-radius: 50%; /* Create a circular border */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+.text-content {
+  max-width: 600px;
+  margin-left: 100px;
+  font-size: x-large;
+}
+
+h1, h6, p {
+  color: #DACBB4; /* Set font color to white for heading and paragraph elements */
+}
+
+/* Add more selectors as needed */
+
+
+/* Add more styling as needed */
+
+  

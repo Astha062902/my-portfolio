@@ -1,0 +1,166 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header {
+  background-color: #906E49;
+  color: #fff;
+  padding: 10px 0;
+  font-family: 'Roboto', sans-serif; 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}*/
+
+/* Adjust the styles as needed */
+
+
+/* Header.css */
+
+/*header {
+  background-color: #906E49;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  font-size: 1.5rem;
+}
+
+.my-name {
+  color: white;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #61dafb;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #61dafb;
+}*/
+
+/* Header.module.css */
+
+.header {
+  background-color: #906e49;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLeft {
+  font-size: 1.5rem;
+  margin-right: 200px;
+}
+
+.myName {
+  color: white;
+  margin: 0;
+  font-size: larger;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.socialIcons{
+  margin-left: 250px;
+  line-height: 30px;
+}
+
+.socialIcons a:hover {
+  color: #61dafb;
+}
+/* ... (continue styling as before) */
